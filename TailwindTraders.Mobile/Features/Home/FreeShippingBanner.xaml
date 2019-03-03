@@ -18,29 +18,6 @@
     </ResourceDictionary>
   </Frame.Resources>
 
-  <StackLayout
-    Padding="{StaticResource 0.5xDefaultMargin}"
-    Orientation="Horizontal">
-
-    <Image
-      BackgroundColor="Transparent"
-      HeightRequest="28"
-      Source="free_shipping"
-      WidthRequest="28" />
-
-    <Label Text="FREE SHIPPING · ">
-
-      <Label.Margin>
-        <Thickness Left="{StaticResource 0.5xDefaultMargin}" />
-      </Label.Margin>
-
-    </Label>
-
-    <Label
-      FontFamily="{StaticResource BrandonGrotesqueLight}"
-      FontSize="Small"
-      Text="For $100 or more orders" />
-
-  </StackLayout>
+  
 
 </Frame>
