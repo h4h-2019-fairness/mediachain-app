@@ -79,7 +79,7 @@
         <StackLayout>
 
           <Image
-            Margin="0,0,0,-64"
+            Margin="0,0,0,-30"
             Aspect="AspectFill"
             HeightRequest="{Binding Source={x:Reference homePage}, Path=Width}"
             Source="header.jpg" />
@@ -89,7 +89,7 @@
             Command="{Binding PhotoCommand}"
             Image="photo"
             Style="{StaticResource DefaultShadowfullButtonStyle}"
-            Text="Start Smart Shopping&#x0a;by taking a photo">
+            Text="Take and Upload&#x0a;a photo">
 
             <Button.Effects>
               <effects:MultilineButtonEffect />
@@ -102,7 +102,7 @@
             Command="{Binding ARCommand}"
             Image="ia"
             Style="{StaticResource DefaultShadowfullButtonStyle}"
-            Text="Start Smart Shopping&#x0a;by using AR">
+            Text="Take and Upload&#x0a;a video">
 
             <Button.Effects>
               <effects:MultilineButtonEffect />

@@ -31,37 +31,6 @@
 
       <StackLayout VerticalOptions="EndAndExpand">
 
-        <!-- 96 (HeightRequest) = 80 + 8 (ItemSpacing) * 2; because ItemSpacing forces such at every side -->
-        <sharpnado:HorizontalListView
-          Grid.Row="1"
-          HeightRequest="96"
-          HorizontalOptions="FillAndExpand"
-          ItemHeight="80"
-          ItemSpacing="{StaticResource 0.5xDefaultMarginInt}"
-          ItemWidth="80"
-          ItemsSource="{Binding GalleryPhotos}">
-
-          <sharpnado:HorizontalListView.ItemTemplate>
-            <DataTemplate>
-              <ViewCell x:DataType="photo:GalleryImageViewModel">
-
-                <photo:GalleryImageTemplate
-                  sharpnado-effects:TapCommandEffect.Tap="{Binding TappedCommand}"
-                  sharpnado-effects:TapCommandEffect.TapParameter="{Binding ImageUrl}"
-                  sharpnado-effects:ViewEffect.TouchFeedbackColor="{StaticResource AccentColor}" />
-
-              </ViewCell>
-            </DataTemplate>
-          </sharpnado:HorizontalListView.ItemTemplate>
-
-          <sharpnado:HorizontalListView.CollectionPadding>
-            <Thickness
-              Left="{StaticResource 0.5xDefaultMargin}"
-              Right="{StaticResource 0.5xDefaultMargin}" />
-          </sharpnado:HorizontalListView.CollectionPadding>
-
-        </sharpnado:HorizontalListView>
-
         <Grid>
 
           <Grid.Effects>

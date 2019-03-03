@@ -22,6 +22,11 @@ namespace TailwindTraders.Mobile.Features.Scanning.Photo
 
         public ICommand AddCommand => FeatureNotAvailableCommand;
 
+        static async Task Crypto()
+        {
+            
+        }
+
         public ICommand TakePhotoCommand => new AsyncCommand(App.NavigateModallyBackAsync);
 
         private string cameraImage;
