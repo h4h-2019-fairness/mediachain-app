@@ -9,7 +9,7 @@
   xmlns:sharpnado="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
   xmlns:sharpnado-effects="clr-namespace:Sharpnado.Presentation.Forms.Effects;assembly=Sharpnado.Presentation.Forms"
   xmlns:touchtracking="clr-namespace:TouchTracking"
-  Title="Smart shopping"
+  Title="Take a Photo"
   ios:Page.UseSafeArea="true"
   x:DataType="photo:CameraPreviewTakePhotoViewModel"
   x:TypeArguments="photo:CameraPreviewTakePhotoViewModel"

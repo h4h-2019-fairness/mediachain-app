@@ -44,7 +44,7 @@
 
     </DataTemplate>
   </Shell.ItemTemplate>
-
+<!--
   <MenuItem
     BindingContext="{x:Reference theShell}"
     Command="{Binding BindingContext.ProductTypeCommand}"
@@ -62,7 +62,7 @@
     Command="{Binding BindingContext.ProductTypeCommand}"
     CommandParameter="4"
     Text="Gardening" />
-
+-->
   <ShellItem
     Title="Home"
     Route="home">

@@ -31,7 +31,7 @@
 
     <Label
       Style="{StaticResource BrandonGrotesqueLightMediumFontStyle}"
-      Text="Smart Shopping">
+      Text="mediachain">
       <Label.Margin>
         <Thickness Left="{StaticResource 0.5xDefaultMargin}" />
       </Label.Margin>
@@ -40,7 +40,7 @@
     <Button
       Command="{Binding PhotoCommand}"
       Image="photo"
-      Text="By taking a photo">
+      Text="Take a photo">
       <Button.Margin>
         <Thickness Top="{StaticResource DefaultMargin}" />
       </Button.Margin>
@@ -49,7 +49,7 @@
     <Button
       Command="{Binding ARCommand}"
       Image="ia"
-      Text="By using AR">
+      Text="Take a video">
       <Button.Margin>
         <Thickness Top="{StaticResource 0.5xDefaultMargin}" />
       </Button.Margin>
