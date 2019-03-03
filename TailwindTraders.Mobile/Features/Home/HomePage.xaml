@@ -52,21 +52,14 @@
 
   <ContentPage.ToolbarItems>
 
-    <ToolbarItem
+        <ToolbarItem
       Command="{Binding FeatureNotAvailableCommand}"
       Icon="search"
       Order="Primary"
       Priority="0"
       Text="Search" />
 
-    <ToolbarItem
-      Command="{Binding FeatureNotAvailableCommand}"
-      Icon="cart"
-      Order="Primary"
-      Priority="1"
-      Text="Cart" />
-
-  </ContentPage.ToolbarItems>
+    </ContentPage.ToolbarItems>
 
   <ContentPage.Content>
 

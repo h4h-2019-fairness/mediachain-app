@@ -26,6 +26,7 @@
   </PropertyGroup>
   
   <ItemGroup>
+    <PackageReference Include="BouncyCastle.NetCore" Version="1.8.3" />
     <PackageReference Include="Plugin.Permissions" Version="3.0.0.12" />
     <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
     <PackageReference Include="System.Buffers" Version="4.5.0" />
@@ -72,5 +73,19 @@
       <HintPath>..\ThirdParties\Sharpnado.Forms.HorizontalListView\Sharpnado.Presentation.Forms.dll</HintPath>
     </Reference>
   </ItemGroup>
+    
+  <ItemGroup>
+    <None Update="priv.pem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="pub.pem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  
+  <ItemGroup>
+ <EmbeddedResource Include="priv.pem" />
+ <EmbeddedResource Include="pub.pem" />
+</ItemGroup>
   
 </Project>
